@@ -1,0 +1,13 @@
+{
+    "require": {
+        "rmccue/requests": "^2.0",
+        "datagutten/tools": "^1.10",
+        "symfony/filesystem": "^6|^5",
+        "php": "^8"
+    },
+    "autoload": {
+        "psr-4": {
+            "datagutten\\webcam\\": "src"
+        }
+    }
+}

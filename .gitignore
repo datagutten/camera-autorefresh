@@ -1,0 +1,14 @@
+vendor
+config.php
+images
+composer.lock
+/.idea/inspectionProfiles/Project_Default.xml
+/.idea/.gitignore
+/.idea/deployment.xml
+/.idea/encodings.xml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/omkcam.iml
+/.idea/php.xml
+/.idea/sshConfigs.xml
+/.idea/vcs.xml
