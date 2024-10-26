@@ -6,13 +6,8 @@ use datagutten\webcam\CameraCache;
 require 'vendor/autoload.php';
 
 $config = require __DIR__ . '/config.php';
+$config['cameras'] = require __DIR__ . '/cameras.php';
 $key = $argv[1] ?? $_GET['camera'];
-/*
- * if (isset($argv[1]))
-    $key = $argv[1];
-else
-    $key = $_GET['camera'];
- */
 
 if (!isset($config['cameras'][$key]))
     die('Invalid camera');
