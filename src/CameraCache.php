@@ -26,9 +26,9 @@ class CameraCache
         $this->camera = $camera;
         $this->key = $key;
         if (empty($cache_path))
-            $this->folder = files::path_join(__DIR__, 'images', $key);
+            $this->folder = files::path_join(__DIR__, '..', 'images', $key);
         else
-            $this->folder = files::path_join(realpath($cache_path), 'images', $key);
+            $this->folder = files::path_join(realpath($cache_path), $key);
 
         if (!file_exists($this->folder))
             $this->filesystem->mkdir($this->folder);
