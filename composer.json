@@ -2,7 +2,7 @@
     "require": {
         "rmccue/requests": "^2.0",
         "datagutten/tools": "^1.10",
-        "symfony/filesystem": "^6|^5",
+        "symfony/filesystem": "^8.1.11",
         "php": "^8"
     },
     "autoload": {
